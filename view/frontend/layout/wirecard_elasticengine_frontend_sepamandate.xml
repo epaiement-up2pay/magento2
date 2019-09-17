@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Shop System Plugins:
+ * - Terms of Use can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * - License can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title/>
+        <link src="requirejs/require.js"/>
+    </head>
+    <body>
+        <referenceContainer name="header.container" remove="true" />
+        <referenceBlock name="page.messages" remove="true"/>
+        <referenceBlock name="navigation.sections" remove="true"/>
+        <referenceContainer name="content">
+            <block name="require.js" class="Magento\Backend\Block\Page\RequireJs" template="Magento_Backend::page/js/require_js.phtml"/>
+            <block class="CreditAgricole\PaymentGateway\Block\Checkout\SepaMandateBlock" template="CreditAgricole_PaymentGateway::sepamandate.phtml" name="frontend.sepamandate" cacheable="false"/>
+        </referenceContainer>
+        <referenceBlock name="catalog.topnav" remove="true"/>
+        <referenceBlock name="minicart" remove="true"/>
+        <referenceBlock name="top.search" remove="true"/>
+        <referenceBlock name="messages" remove="true"/>
+        <referenceBlock name="store.links" remove="true"/>
+        <referenceBlock name="store.menu" remove="true"/>
+        <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="footer" remove="true"/>
+        <referenceBlock name="logo" remove="true"/>
+        <referenceContainer name="copyright" remove="true"/>
+    </body>
+</page>
+
+
+

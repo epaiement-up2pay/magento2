@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Shop System Plugins:
+ * - Terms of Use can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * - License can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="payment_method_assign_data_CreditAgricole_PaymentGateway_creditcard">
+        <observer name="CreditAgricole_PaymentGateway_creditcard_gateway_data_assign" instance="CreditAgricole\PaymentGateway\Observer\CreditCardDataAssignObserver" />
+    </event>
+    <event name="payment_method_assign_data_CreditAgricole_PaymentGateway_sepadirectdebit">
+        <observer name="CreditAgricole_PaymentGateway_sepadirectdebit_gateway_data_assign" instance="CreditAgricole\PaymentGateway\Observer\SepaDataAssignObserver" />
+    </event>
+    <event name="payment_method_assign_data_CreditAgricole_PaymentGateway_ideal">
+        <observer name="CreditAgricole_PaymentGateway_ideal_gateway_data_assign" instance="CreditAgricole\PaymentGateway\Observer\IdealDataAssignObserver" />
+    </event>
+    <event name="payment_method_assign_data_CreditAgricole_PaymentGateway_giropay">
+        <observer name="CreditAgricole_PaymentGateway_giropay_gateway_data_assign" instance="CreditAgricole\PaymentGateway\Observer\GiropayDataAssignObserver" />
+    </event>
+    <event name="payment_method_assign_data_CreditAgricole_PaymentGateway_ratepayinvoice">
+        <observer name="CreditAgricole_PaymentGateway_ratepay_gateway_data_assign" instance="CreditAgricole\PaymentGateway\Observer\RatepayDataAssignObserver" />
+    </event>
+</config>

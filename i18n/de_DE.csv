@@ -1,0 +1,107 @@
+amount,Betrag,: classes/includes/class-wc-gateway-wirecard-poipia.php:263
+bank_label,Bank
+bic,BIC,": classes/includes/class-wc-gateway-wirecard-eps.php:183, : classes/includes/class-wc-gateway-wirecard-poipia.php:265, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:273"
+birthdate_input,Geburtsdatum,: classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:424
+canceled_payment_process,Sie haben den Bezahlprozess abgebrochen.,: classes/includes/class-wc-wirecard-payment-gateway.php:201
+capture_invoice_comment,Online gebuchter Betrag in der Höhe von %1. Transaction ID: %2.
+config_additional_info,Zusätzliche Informationen mitsenden,": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:163, : classes/includes/class-wc-gateway-wirecard-creditcard.php:207, : classes/includes/class-wc-gateway-wirecard-eps.php:167, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:216, : classes/includes/class-wc-gateway-wirecard-ideal.php:167, : classes/includes/class-wc-gateway-wirecard-masterpass.php:176, : classes/includes/class-wc-gateway-wirecard-paypal.php:183, : classes/includes/class-wc-gateway-wirecard-poipia.php:173, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:206, : classes/includes/class-wc-gateway-wirecard-sofort.php:159, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:176"
+config_base_url,Crédit Agricole Server Adresse (URL),": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:124, : classes/includes/class-wc-gateway-wirecard-creditcard.php:157, : classes/includes/class-wc-gateway-wirecard-eps.php:128, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:133, : classes/includes/class-wc-gateway-wirecard-ideal.php:128, : classes/includes/class-wc-gateway-wirecard-masterpass.php:126, : classes/includes/class-wc-gateway-wirecard-paypal.php:126, : classes/includes/class-wc-gateway-wirecard-poipia.php:123, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:123, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:127, : classes/includes/class-wc-gateway-wirecard-sofort.php:126, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:126"
+config_base_url_desc,Crédit Agricole Server Adresse (URL) (z. B. https://api.wirecard.com).,": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:126, : classes/includes/class-wc-gateway-wirecard-creditcard.php:159, : classes/includes/class-wc-gateway-wirecard-eps.php:130, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:135, : classes/includes/class-wc-gateway-wirecard-ideal.php:130, : classes/includes/class-wc-gateway-wirecard-masterpass.php:128, : classes/includes/class-wc-gateway-wirecard-paypal.php:128, : classes/includes/class-wc-gateway-wirecard-poipia.php:125, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:125, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:129, : classes/includes/class-wc-gateway-wirecard-sofort.php:128, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:128"
+config_basket_max,Höchstbetrag,: classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:201
+config_basket_min,Mindestbetrag,: classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:196
+config_billing_shipping,Identische Rechnungs- und Lieferadresse,: classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:165
+config_challenge_challenge_threed,Challenge requested,: classes/includes/class-wc-gateway-wirecard-creditcard.php:306
+config_challenge_indicator,Challenge Indicator,: classes/includes/class-wc-gateway-wirecard-creditcard.php:271
+config_challenge_no_challenge,No challenge requested,: classes/includes/class-wc-gateway-wirecard-creditcard.php:305
+config_challenge_no_preference,No preference,: classes/includes/class-wc-gateway-wirecard-creditcard.php:304
+config_creditor_city,Creditor-Stadt,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:168
+config_creditor_city_desc,Für das SEPA-Lastschriftmandat wird die Creditor-Stadt benötigt.,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:170
+config_creditor_id,Creditor ID,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:156
+config_creditor_name,Creditor-Name,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:162
+config_creditor_name_desc,Für das SEPA-Lastschriftmandat wird der Creditor-Name benötigt.,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:164
+config_email,Ihre E-Mail-Adresse,: classes/admin/class-wirecard-settings.php:226
+config_enable_bic,BIC aktivieren,: classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:213
+config_http_password,Passwort (Password),": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:136, : classes/includes/class-wc-gateway-wirecard-creditcard.php:169, : classes/includes/class-wc-gateway-wirecard-eps.php:140, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:145, : classes/includes/class-wc-gateway-wirecard-ideal.php:140, : classes/includes/class-wc-gateway-wirecard-masterpass.php:138, : classes/includes/class-wc-gateway-wirecard-paypal.php:138, : classes/includes/class-wc-gateway-wirecard-poipia.php:135, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:135, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:139, : classes/includes/class-wc-gateway-wirecard-sofort.php:138, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:138"
+config_http_user,Benutzername (Username),": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:130, : classes/includes/class-wc-gateway-wirecard-creditcard.php:163, : classes/includes/class-wc-gateway-wirecard-eps.php:134, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:139, : classes/includes/class-wc-gateway-wirecard-ideal.php:134, : classes/includes/class-wc-gateway-wirecard-masterpass.php:132, : classes/includes/class-wc-gateway-wirecard-paypal.php:132, : classes/includes/class-wc-gateway-wirecard-poipia.php:129, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:129, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:133, : classes/includes/class-wc-gateway-wirecard-sofort.php:132, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:132"
+config_limit_desc,Betrag in Standardwährung des Shops.,": classes/includes/class-wc-gateway-wirecard-creditcard.php:142, : classes/includes/class-wc-gateway-wirecard-creditcard.php:148"
+config_merchant_account_id,Merchant Account ID (MAID),": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:107, : classes/includes/class-wc-gateway-wirecard-creditcard.php:116, : classes/includes/class-wc-gateway-wirecard-eps.php:111, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:116, : classes/includes/class-wc-gateway-wirecard-ideal.php:111, : classes/includes/class-wc-gateway-wirecard-masterpass.php:109, : classes/includes/class-wc-gateway-wirecard-paypal.php:109, : classes/includes/class-wc-gateway-wirecard-poipia.php:106, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:106, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:110, : classes/includes/class-wc-gateway-wirecard-sofort.php:109, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:109"
+config_merchant_public,Public Key
+config_merchant_secret,Geheimschlüssel (Secret Key),": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:113, : classes/includes/class-wc-gateway-wirecard-creditcard.php:122, : classes/includes/class-wc-gateway-wirecard-eps.php:117, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:122, : classes/includes/class-wc-gateway-wirecard-ideal.php:117, : classes/includes/class-wc-gateway-wirecard-masterpass.php:115, : classes/includes/class-wc-gateway-wirecard-paypal.php:115, : classes/includes/class-wc-gateway-wirecard-poipia.php:112, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:112, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:116, : classes/includes/class-wc-gateway-wirecard-sofort.php:115, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:115"
+config_message,Ihre Nachricht,: classes/admin/class-wirecard-settings.php:234
+config_payment_action,Zahlungsaktion,": classes/includes/class-wc-gateway-wirecard-creditcard.php:186, : classes/includes/class-wc-gateway-wirecard-creditcard.php:190, : classes/includes/class-wc-gateway-wirecard-masterpass.php:155, : classes/includes/class-wc-gateway-wirecard-masterpass.php:159, : classes/includes/class-wc-gateway-wirecard-paypal.php:155, : classes/includes/class-wc-gateway-wirecard-paypal.php:159, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:185, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:189, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:155, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:159"
+config_shopping_basket,Warenkorb,: classes/includes/class-wc-gateway-wirecard-paypal.php:169
+config_sort_order,Reihenfolge
+config_ssl_max_limit,Höchstbetrag (nicht 3-D Secure),: classes/includes/class-wc-gateway-wirecard-creditcard.php:140
+config_three_d_merchant_account_id,3-D Secure MAID,: classes/includes/class-wc-gateway-wirecard-creditcard.php:128
+config_three_d_merchant_secret,3-D Secure Secret Key,: classes/includes/class-wc-gateway-wirecard-creditcard.php:134
+config_three_d_min_limit,3-D Secure Mindestbetrag,: classes/includes/class-wc-gateway-wirecard-creditcard.php:146
+config_title,Titel,": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:101, : classes/includes/class-wc-gateway-wirecard-creditcard.php:110, : classes/includes/class-wc-gateway-wirecard-eps.php:105, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:110, : classes/includes/class-wc-gateway-wirecard-ideal.php:105, : classes/includes/class-wc-gateway-wirecard-masterpass.php:103, : classes/includes/class-wc-gateway-wirecard-paypal.php:103, : classes/includes/class-wc-gateway-wirecard-poipia.php:100, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:100, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:104, : classes/includes/class-wc-gateway-wirecard-sofort.php:103, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:103"
+config_vault,One-Click-Checkout
+config_wpp_url,Crédit Agricole Payment Page v2 Adresse (URL WPP v2),": classes/includes/class-wc-gateway-wirecard-creditcard.php:219, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:126"
+config_wpp_url_desc,Crédit Agricole Payment Page v2 Adresse (URL WPP v2) (z.B. https://wpp.wirecard.com).,": classes/includes/class-wc-gateway-wirecard-creditcard.php:221, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:128"
+config_zapp_merchant_return_string,Merchant Return URL,: classes/includes/class-wc-gateway-wirecard-pay-by-bank-app.php:155
+config_zapp_merchant_return_string_desc,Merchant Return URL to redirect consumers from their mobile banking apps to your shop.,: classes/includes/class-wc-gateway-wirecard-pay-by-bank-app.php:157
+creditor,Creditor,: classes/helper/sepa-template.php:38
+creditor_id_input,Creditor ID,: classes/helper/sepa-template.php:40
+creditor_mandate_id,Mandate ID
+credit_card_form_loading_error,Beim Laden der Eingabemaske ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.
+credit_card_form_submitting_error,Beim Senden der Kreditkartendaten ist ein Fehler aufgetreten.
+debtor,Debitor,: classes/helper/sepa-template.php:52
+debtor_acc_owner,Kontoinhaber,: classes/helper/sepa-template.php:53
+default_currency,Standardwährung
+enter_valid_email_error,"Geben Sie eine gültige E-Mail-Adresse ein.
+"
+error_credentials,Test fehlgeschlagen. Überprüfen Sie Ihre Zugangsdaten.,: classes/includes/class-wc-wirecard-payment-gateway.php:682
+first_name_input,Vorname
+heading_title_alipay_crossborder,Crédit Agricole Alipay Cross-border,": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:60, : classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:104"
+heading_title_creditcard,Crédit Agricole Kreditkarte,": classes/includes/class-wc-gateway-wirecard-creditcard.php:61, : classes/includes/class-wc-gateway-wirecard-creditcard.php:113"
+heading_title_giropay,Crédit Agricole giropay
+heading_title_ideal,Crédit Agricole iDEAL,": classes/includes/class-wc-gateway-wirecard-ideal.php:63, : classes/includes/class-wc-gateway-wirecard-ideal.php:108"
+heading_title_masterpass,Crédit Agricole Masterpass,": classes/includes/class-wc-gateway-wirecard-masterpass.php:61, : classes/includes/class-wc-gateway-wirecard-masterpass.php:106"
+heading_title_paybybankapp,Crédit Agricole Pay by Bank app,": classes/includes/class-wc-gateway-wirecard-pay-by-bank-app.php:60, : classes/includes/class-wc-gateway-wirecard-pay-by-bank-app.php:106"
+heading_title_paypal,Crédit Agricole PayPal,": classes/includes/class-wc-gateway-wirecard-paypal.php:61, : classes/includes/class-wc-gateway-wirecard-paypal.php:106"
+heading_title_poi_pia,Crédit Agricole Kauf auf Rechnung / Vorauskasse,": classes/includes/class-wc-gateway-wirecard-poipia.php:61, : classes/includes/class-wc-gateway-wirecard-poipia.php:103"
+heading_title_ratepayinvoice,Crédit Agricole Garantierter Kauf auf Rechnung,": classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:63, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:113"
+heading_title_sepact,Crédit Agricole SEPA-Überweisung,": classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:60, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:103"
+heading_title_sepadd,Crédit Agricole SEPA-Lastschrift,": classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:59, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:107"
+heading_title_sofortbanking,Crédit Agricole Sofort.,": classes/includes/class-wc-gateway-wirecard-sofort.php:62, : classes/includes/class-wc-gateway-wirecard-sofort.php:106"
+iban,IBAN,": classes/includes/class-wc-gateway-wirecard-poipia.php:264, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:266"
+ideal_legend,Wählen Sie Ihre Bank
+last_name_input,Nachname
+module_display_name,Crédit Agricole Payment Processing Gateway
+no_such_order_error,Keine Bestellung gefunden.
+order_error,Beim Bezahlprozess ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.,": classes/includes/class-wc-wirecard-payment-gateway.php:212, : classes/includes/class-wc-wirecard-payment-gateway.php:228, : classes/includes/class-wc-wirecard-payment-gateway.php:340"
+payment_from_applicable_countries,Zahlung aus folgenden Ländern
+payment_from_specific_countries,Zahlung aus gewählten Ländern
+place_order,Bestellen
+ptrid,Provider Transaction Reference ID,: classes/includes/class-wc-gateway-wirecard-poipia.php:266
+public_certificate_desc,"Wird ein öffentliches Zertifikat zur Verfügung gestellt, wird es zur SSL-Zertifikat-Überprüfung bei Antworten von Crédit Agricole-Servern verwendet."
+send_email,Senden
+sepa_mandate,SEPA-Mandat
+sepa_text_1,Ich ermächtige den Creditor,: classes/helper/sepa-template.php:69
+sepa_text_2,"einmalig eine Zahlung von meinem Konto mittels SEPA-Lastschrift einzuziehen. Zugleich weise ich meine Bank an, die vom Creditor",: classes/helper/sepa-template.php:71
+sepa_text_2b,auf mein Konto gezogene SEPA-Lastschrift einzulösen.,: classes/helper/sepa-template.php:72
+sepa_text_3,"Hinweis: Ich kann innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, die Erstattung des belasteten Betrags verlangen. Es gelten dabei die mit meiner Bank vereinbarten Bedingungen.",: classes/helper/sepa-template.php:78
+sepa_text_4,"Für den Fall der Nichteinlösung der Lastschrift oder des Widerspruchs gegen die Lastschrift weise ich meine Bank unwiderruflich an, dem Creditor",: classes/helper/sepa-template.php:84
+sepa_text_5,"oder Dritten auf Anforderung meinen Namen, Adresse und Geburtsdatum vollständig mitzuteilen.",: classes/helper/sepa-template.php:86
+sepa_text_6,"Ich habe die Informationen zum SEPA-Lastschriftmandat gelesen und verstanden.
+",: classes/helper/sepa-template.php:104
+success_credentials,Die Konfigurationseinstellungen wurden erfolgreich getestet.,: classes/includes/class-wc-wirecard-payment-gateway.php:680
+success_email,E-Mail wurde erfolgreich versendet.,: classes/admin/class-wirecard-settings.php:299
+support_email_title,Supportanfrage senden
+terms_of_use,Nutzungsbedingungen
+test_credentials,Zugangsdaten testen,": classes/includes/class-wc-gateway-wirecard-alipay-crossborder.php:145, : classes/includes/class-wc-gateway-wirecard-creditcard.php:178, : classes/includes/class-wc-gateway-wirecard-eps.php:149, : classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:154, : classes/includes/class-wc-gateway-wirecard-ideal.php:149, : classes/includes/class-wc-gateway-wirecard-masterpass.php:147, : classes/includes/class-wc-gateway-wirecard-paypal.php:152, : classes/includes/class-wc-gateway-wirecard-poipia.php:144, : classes/includes/class-wc-gateway-wirecard-sepa-credit-transfer.php:144, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:148, : classes/includes/class-wc-gateway-wirecard-sofort.php:147, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:147, : woocommerce-wirecard-payment-gateway.php:301"
+text_enabled,Aktiviert
+text_min_age_notice,You must be at least 18 years of age to use this payment method.
+text_need_same_address_notice,Shipping and billing address must be identical.
+text_payment_action_pay,Direktbuchung,": classes/includes/class-wc-gateway-wirecard-creditcard.php:193, : classes/includes/class-wc-gateway-wirecard-masterpass.php:162, : classes/includes/class-wc-gateway-wirecard-paypal.php:162, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:192, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:162"
+text_payment_action_reserve,Genehmigung,": classes/includes/class-wc-gateway-wirecard-creditcard.php:214, : classes/includes/class-wc-gateway-wirecard-masterpass.php:161, : classes/includes/class-wc-gateway-wirecard-paypal.php:161, : classes/includes/class-wc-gateway-wirecard-sepa-direct-debit.php:191, : classes/includes/class-wc-gateway-wirecard-unionpay-international.php:175"
+text_payment_type_pia,Vorauskasse,: classes/includes/class-wc-gateway-wirecard-poipia.php:159
+text_payment_type_poi,Kauf auf Rechnung,: classes/includes/class-wc-gateway-wirecard-poipia.php:158
+text_settings,Einstellungen
+text_support,Support,: classes/admin/class-wirecard-settings.php:98
+text_terms_accept,"Hiermit bestätige ich, dass ich die <a target=""_blank"" href=""https://www.wirecardbank.de/privacy-documents/datenschutzhinweis-fur-die-wirecard-zahlarten/"">Datenschutzhinweise</a> und <a target=""_blank"" href=""https://www.wirecardbank.de/privacy-documents/zusatzliche-geschaftsbedingungen-fur-wirecard-zahlarten/"">zusätzlichen Geschäftsbedingungen</a> für Crédit Agricole-Zahlarten zur Kenntnis genommen habe und mit deren Geltung einverstanden bin.",: classes/includes/class-wc-gateway-wirecard-guaranteed-invoice-ratepay.php:436
+transfer_notice,"Verwenden Sie für die Überweisung die folgenden Daten:
+",: classes/includes/class-wc-gateway-wirecard-poipia.php:261
+vault_save_text,Für spätere Verwendung speichern.,: classes/includes/class-wc-gateway-wirecard-creditcard.php:349
+warning_credit_card_url_mismatch,Achtung: Bitte überprüfen Sie Ihre Konfigurationsdaten in den URL-Eingabefeldern. Möglicherweise haben Sie ein Produktivkonto mit einem Testkonto kombiniert.,: classes/includes/class-wc-gateway-wirecard-creditcard.php:777

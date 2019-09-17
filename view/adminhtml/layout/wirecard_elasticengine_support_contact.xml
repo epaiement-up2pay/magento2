@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Shop System Plugins:
+ * - Terms of Use can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * - License can be found under:
+ * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ */
+-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="CreditAgricole\PaymentGateway\Block\Adminhtml\Support\Contact" name="CreditAgricole_PaymentGateway.support.contact"/>
+        </referenceContainer>
+
+    </body>
+</page>
