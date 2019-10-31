@@ -963,6 +963,7 @@
     <virtualType name="AccountHolderFactory" type="CreditAgricole\PaymentGateway\Gateway\Request\AccountHolderFactory">
         <arguments>
             <argument name="addressFactory" xsi:type="object">CreditAgricole\PaymentGateway\Gateway\Request\AddressFactory</argument>
+            <argument name="validatorFactory" xsi:type="object">CreditAgricole\PaymentGateway\Gateway\Validator\ValidatorFactory</argument>
         </arguments>
     </virtualType>
 
@@ -970,6 +971,7 @@
         <arguments>
             <argument name="accountInfoFactory" xsi:type="object">CreditAgricole\PaymentGateway\Gateway\Request\AccountInfoFactory</argument>
             <argument name="accountHolderFactory" xsi:type="object">AccountHolderFactory</argument>
+            <argument name="validatorFactory" xsi:type="object">CreditAgricole\PaymentGateway\Gateway\Validator\ValidatorFactory</argument>
         </arguments>
     </virtualType>
 
