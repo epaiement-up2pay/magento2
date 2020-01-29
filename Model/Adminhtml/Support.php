@@ -247,7 +247,6 @@ class Support
             'pluginName' => 'CreditAgricole_PaymentGateway',
             'pluginVersion' => $this->moduleList->getOne('CreditAgricole_PaymentGateway')['setup_version']
         ]);
-
         $transport = $this->transportBuilder
             ->setTemplateIdentifier('contact_support_email')
             ->setTemplateOptions(
@@ -264,6 +263,7 @@ class Support
                 'configstr' => $this->getConfigString(),
                 'versioninfo' => $versioninfo
             ])
+            // Exchange of setFrom to setFromByScope results in incompatibility to Magento 2.2
             ->setFrom($sender)
             ->addTo('support-epaiement@up2pay.fr')
             ->getTransport();

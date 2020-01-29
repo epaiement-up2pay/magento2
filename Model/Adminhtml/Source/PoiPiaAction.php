@@ -9,9 +9,9 @@
 
 namespace CreditAgricole\PaymentGateway\Model\Adminhtml\Source;
 
-use Magento\Framework\Option\ArrayInterface;
+use Magento\Framework\Data\OptionSourceInterface;
 
-class PoiPiaAction implements ArrayInterface
+class PoiPiaAction implements OptionSourceInterface
 {
     const INVOICE = 'invoice';
     const ADVANCE = 'advance';

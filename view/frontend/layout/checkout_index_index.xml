@@ -57,9 +57,6 @@
                                                                         <item name="CreditAgricole_PaymentGateway_poipia" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
-                                                                        <item name="CreditAgricole_PaymentGateway_masterpass" xsi:type="array">
-                                                                            <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
-                                                                        </item>
                                                                         <item name="CreditAgricole_PaymentGateway_paybybankapp" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>

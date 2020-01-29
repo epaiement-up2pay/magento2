@@ -58,10 +58,6 @@ define(
                 component: "CreditAgricole_PaymentGateway/js/view/payment/method-renderer/default"
             },
             {
-                type: "CreditAgricole_PaymentGateway_masterpass",
-                component: "CreditAgricole_PaymentGateway/js/view/payment/method-renderer/default"
-            },
-            {
                 type: "CreditAgricole_PaymentGateway_paybybankapp",
                 component: "CreditAgricole_PaymentGateway/js/view/payment/method-renderer/default"
             }

@@ -30,7 +30,6 @@ class ConfigProvider implements ConfigProviderInterface
     const RATEPAYINVOICE_CODE = 'CreditAgricole_PaymentGateway_ratepayinvoice';
     const ALIPAYXBORDER_CODE = 'CreditAgricole_PaymentGateway_alipayxborder';
     const POIPIA_CODE = 'CreditAgricole_PaymentGateway_poipia';
-    const MASTERPASS_CODE = 'CreditAgricole_PaymentGateway_masterpass';
     const CREDITCARD_VAULT_CODE = 'CreditAgricole_PaymentGateway_cc_vault';
     const PAYBYBANKAPP_CODE = 'CreditAgricole_PaymentGateway_paybybankapp';
     const PAYMENTPAGE_LOADER = '/loader/paymentPage.js';
@@ -107,7 +106,6 @@ class ConfigProvider implements ConfigProviderInterface
                 $this->getConfigForRatepay(self::RATEPAYINVOICE_CODE) +
                 $this->getConfigForPaymentMethod(self::ALIPAYXBORDER_CODE) +
                 $this->getConfigForPaymentMethod(self::POIPIA_CODE) +
-                $this->getConfigForPaymentMethod(self::MASTERPASS_CODE) +
                 $this->getConfigForPaymentMethod(self::PAYBYBANKAPP_CODE)
         ];
     }
