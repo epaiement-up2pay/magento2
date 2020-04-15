@@ -1,6 +1,6 @@
 {
   "name": "epaiement-up2pay/magento2",
-  "description": "Magento2 plugin for Crédit Agricole Payment Processing Gateway",
+  "description": "Wirecard Magento 2 Extension",
   "license": "GPL-3.0-only",
   "minimum-stability": "beta",
   "prefer-stable": true,

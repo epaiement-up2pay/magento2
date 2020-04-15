@@ -2,9 +2,9 @@
 /**
  * Shop System Plugins:
  * - Terms of Use can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/_TERMS_OF_USE
  * - License can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/LICENSE
  */
 
 namespace CreditAgricole\PaymentGateway\Gateway\Request;
@@ -14,6 +14,7 @@ use Magento\Catalog\Model\Product\Type;
 use Magento\Checkout\Model\Session;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Payment\Gateway\Data\OrderAdapterInterface;
+use Magento\Sales\Api\Data\OrderInterface;
 use Magento\Sales\Api\Data\OrderItemInterface;
 use Magento\Sales\Api\OrderRepositoryInterface;
 use Magento\Sales\Model\Order;
@@ -195,6 +196,8 @@ class BasketFactory
             throw new NoSuchEntityException(__('no_such_order_error'));
         }
 
+        $totalAmountToRefund = $transaction->getAmount()->getValue();
+
         $basket = new Basket();
         $basket->setVersion($transaction);
         $items = $order->getItems();
@@ -211,15 +214,17 @@ class BasketFactory
             $basket->add($this->itemFactory->refund($item, $order->getCurrencyCode(), (int)$qty));
         }
 
+        $totalAmountToRefund -= $basket->getTotalAmount()->getValue();
         //Current shipping
-        $origShipping = $orderObject->getOrigData('shipping_refunded');
-        $newShipping = $orderObject->getShippingRefunded();
-        $shipping = $newShipping - $origShipping;
+        $refundedShipping = $orderObject->getOrigData(OrderInterface::SHIPPING_REFUNDED);
+        $originShipping = $orderObject->getShippingAmount();
 
-        if ($shipping > 0) {
+        $openShippingAmount = $originShipping - $refundedShipping;
+
+        if ($openShippingAmount > 0 && $totalAmountToRefund > 0) {
             $shippingItem = new Item(
                 'Shipping',
-                new Amount((float)$shipping, $order->getCurrencyCode()),
+                new Amount((float)$openShippingAmount, $order->getCurrencyCode()),
                 1
             );
 

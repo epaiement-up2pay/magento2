@@ -2,9 +2,9 @@
 /**
  * Shop System Plugins:
  * - Terms of Use can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/_TERMS_OF_USE
  * - License can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/LICENSE
  */
 
 namespace CreditAgricole\PaymentGateway\Gateway\Request;
@@ -77,6 +77,7 @@ class AccountInfoFactory
      * @param string $challengeIndicator
      * @param string|null $token
      * @return AccountInfo
+     * @throws \Exception
      * @since 2.2.0
      */
     public function create($challengeIndicator, $token = null)
@@ -101,6 +102,7 @@ class AccountInfoFactory
      * Set user creation data for accountInfo
      *
      * @param AccountInfo $accountInfo
+     * @throws \Exception
      * @since 2.2.0
      */
     private function setUserCreationData($accountInfo)
@@ -123,19 +125,24 @@ class AccountInfoFactory
      *
      * @param AccountInfo $accountInfo
      * @param string $token
+     * @throws \Exception
      * @since 2.2.0
+     *
+     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     private function setCreditCardCreationDate($accountInfo, $token)
     {
+        $creationDate = new \DateTime();
         if (!empty($token)) {
             $createdDates = $this->vaultCollection->addFieldToFilter('gateway_token', $token)
                 ->getColumnValues(self::CREATED_AT_KEY);
-
-            $creationDate = new \DateTime(reset($createdDates));
-            $creationDate->format(AccountInfo::DATE_FORMAT);
-
-            $accountInfo->setCardCreationDate($creationDate);
+            $creationDate->modify(reset($createdDates));
         }
+        $date = \DateTime::createFromFormat(
+            AccountInfo::DATE_FORMAT,
+            $creationDate->format(AccountInfo::DATE_FORMAT)
+        );
+        $accountInfo->setCardCreationDate($date);
     }
 
     /**
@@ -144,6 +151,7 @@ class AccountInfoFactory
      * @param string $dateString
      * @param string $format
      * @return \DateTime
+     * @throws \Exception
      * @since 2.2.0
      */
     private function createDateWithFormat($dateString, $format)

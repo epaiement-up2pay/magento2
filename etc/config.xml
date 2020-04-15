@@ -3,9 +3,9 @@
 /**
  * Shop System Plugins:
  * - Terms of Use can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/_TERMS_OF_USE.txt
  * - License can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/LICENSE
  */
 -->
 
@@ -13,7 +13,7 @@
     <default>
         <CreditAgricole_PaymentGateway>
             <credentials>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>70000-APITEST-AP</http_user>
                 <http_pass>qD2wzQ_hrc!8</http_pass>
             </credentials>
@@ -58,7 +58,7 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
             <CreditAgricole_PaymentGateway_paypal>
                 <title>Crédit Agricole PayPal</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>70000-APITEST-AP</http_user>
                 <http_pass>qD2wzQ_hrc!8</http_pass>
                 <can_initialize>1</can_initialize>
@@ -70,20 +70,20 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_refund_partial_per_invoice>1</can_refund_partial_per_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>8</sort_order>
                 <model>PaypalFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>authorize</payment_action>
-                <merchant_account_id>9abf05c1-c266-46ae-8eac-7f87ca97af28</merchant_account_id>
-                <secret>5fca2a83-89ca-4f9e-8cf7-4ca74a02773f</secret>
+                <merchant_account_id>73e2f551-b309-462a-90a5-633fbb606c05</merchant_account_id>
+                <secret>dbc5a498-9a66-43b9-bf1d-a618dd399684</secret>
                 <send_shopping_basket>1</send_shopping_basket>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_paypal>
             <CreditAgricole_PaymentGateway_creditcard>
                 <title>Crédit Agricole Credit Card</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
-                <wpp_url>https://wpp-test.wirecard.com</wpp_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
+                <wpp_url>https://page-test.secure.epaiement-up2pay.fr</wpp_url>
                 <http_user>70000-APITEST-AP</http_user>
                 <http_pass>qD2wzQ_hrc!8</http_pass>
                 <can_initialize>1</can_initialize>
@@ -99,9 +99,9 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <model>CreditCardFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>authorize</payment_action>
-                <merchant_account_id>53f2895a-e4de-4e82-a813-0d87a10e55e6</merchant_account_id>
+                <merchant_account_id>8510aeb1-85ee-4a65-8a56-e042b361d403</merchant_account_id>
                 <secret>dbc5a498-9a66-43b9-bf1d-a618dd399684</secret>
-                <three_d_merchant_account_id>508b8896-b37d-4614-845c-26bf8bf2c948</three_d_merchant_account_id>
+                <three_d_merchant_account_id>95a918ee-d244-422e-9716-0aa7d41bf0c7</three_d_merchant_account_id>
                 <three_d_secret>dbc5a498-9a66-43b9-bf1d-a618dd399684</three_d_secret>
                 <ssl_max_limit>100.0</ssl_max_limit>
                 <three_d_min_limit>50.0</three_d_min_limit>
@@ -112,7 +112,7 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
             <CreditAgricole_PaymentGateway_sepadirectdebit>
                 <title>Crédit Agricole SEPA Direct Debit</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>16390-testing</http_user>
                 <http_pass>3!3013=D3fD8X7</http_pass>
                 <can_initialize>1</can_initialize>
@@ -124,22 +124,22 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_void>0</can_void>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>10</sort_order>
                 <model>SepaFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>authorize</payment_action>
-                <merchant_account_id>933ad170-88f0-4c3d-a862-cff315ecfbc0</merchant_account_id>
+                <merchant_account_id>8d623cef-68fc-4762-a6ab-1b5dbf1b18b2</merchant_account_id>
                 <secret>5caf2ed9-5f79-4e65-98cb-0b70d6f569aa</secret>
                 <enable_bic>0</enable_bic>
-                <creditor_id>DE98ZZZ09999999999</creditor_id>
-                <creditor_name>Max Mustermann</creditor_name>
+                <creditor_id/>
+                <creditor_name/>
                 <creditor_city>City</creditor_city>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_sepadirectdebit>
             <CreditAgricole_PaymentGateway_sepacredit>
                 <title>Crédit Agricole SEPA Credit Transfer</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>16390-testing</http_user>
                 <http_pass>3!3013=D3fD8X7</http_pass>
                 <can_initialize>0</can_initialize>
@@ -149,15 +149,15 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_refund_partial_per_invoice>1</can_refund_partial_per_invoice>
                 <can_use_checkout>0</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>9</sort_order>
                 <model>SepaCreditFacade</model>
-                <merchant_account_id>59a01668-693b-49f0-8a1f-f3c1ba025d45</merchant_account_id>
+                <merchant_account_id>a677cab0-2a1f-4132-bd2b-1f611d6245c8</merchant_account_id>
                 <secret>ecdf5990-0372-47cd-a55d-037dccfe9d25</secret>
             </CreditAgricole_PaymentGateway_sepacredit>
             <CreditAgricole_PaymentGateway_sofortbanking>
                 <title>Crédit Agricole Sofort.</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>16390-testing</http_user>
                 <http_pass>3!3013=D3fD8X7</http_pass>
                 <can_initialize>1</can_initialize>
@@ -169,18 +169,18 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_invoice>1</can_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>11</sort_order>
                 <model>SofortFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>debit</payment_action>
-                <merchant_account_id>6c0e7efd-ee58-40f7-9bbd-5e7337a052cd</merchant_account_id>
+                <merchant_account_id>dc100d83-ff0b-474e-807e-7d3a636385c1</merchant_account_id>
                 <secret>58764ab3-5c56-450e-b747-7237a24e92a7</secret>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_sofortbanking>
             <CreditAgricole_PaymentGateway_ideal>
                 <title>Crédit Agricole iDEAL</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>16390-testing</http_user>
                 <http_pass>3!3013=D3fD8X7</http_pass>
                 <can_initialize>1</can_initialize>
@@ -192,18 +192,18 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_invoice>1</can_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>5</sort_order>
                 <model>IdealFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>debit</payment_action>
-                <merchant_account_id>4aeccf39-0d47-47f6-a399-c05c1f2fc819</merchant_account_id>
+                <merchant_account_id>59829bf2-e500-463c-89cf-f34624c36b1b</merchant_account_id>
                 <secret>7a353766-23b5-4992-ae96-cb4232998954</secret>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_ideal>
             <CreditAgricole_PaymentGateway_giropay>
                 <title>Crédit Agricole Giropay</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
                 <http_user>16390-testing</http_user>
                 <http_pass>3!3013=D3fD8X7</http_pass>
                 <can_initialize>1</can_initialize>
@@ -215,20 +215,20 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_invoice>1</can_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>3</sort_order>
                 <model>GiropayFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>debit</payment_action>
-                <merchant_account_id>9b4b0e5f-1bc8-422e-be42-d0bad2eadabc</merchant_account_id>
+                <merchant_account_id>0054a5c6-79e8-4728-9cab-7d99504010ab</merchant_account_id>
                 <secret>0c8c6f3a-1534-4fa1-99d9-d1c644d43709</secret>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_giropay>
             <CreditAgricole_PaymentGateway_ratepayinvoice>
                 <title>Crédit Agricole Guaranteed Invoice by Crédit Agricole</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
-                <http_user>16390-testing</http_user>
-                <http_pass>3!3013=D3fD8X7</http_pass>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
+                <http_user>*****</http_user>
+                <http_pass>*****</http_pass>
                 <can_initialize>1</can_initialize>
                 <can_authorize>0</can_authorize>
                 <can_void>1</can_void>
@@ -238,12 +238,12 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_refund_partial_per_invoice>1</can_refund_partial_per_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>4</sort_order>
                 <model>RatepayInvoiceFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>authorize</payment_action>
-                <merchant_account_id>7d7edecb-b008-4f05-9103-308c81cf2ea2</merchant_account_id>
-                <secret>555d998b-15db-46a9-8f1f-d9bc3ec66b19</secret>
+                <merchant_account_id>*****</merchant_account_id>
+                <secret>*****</secret>
                 <min_order_total>20</min_order_total>
                 <max_order_total>3500</max_order_total>
                 <allowspecific>1</allowspecific>
@@ -254,9 +254,9 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
             <CreditAgricole_PaymentGateway_alipayxborder>
                 <title>Crédit Agricole Alipay Cross-border</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
-                <http_user>16390-testing</http_user>
-                <http_pass>3!3013=D3fD8X7</http_pass>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
+                <http_user>70000-APITEST-AP</http_user>
+                <http_pass>qD2wzQ_hrc!8</http_pass>
                 <can_initialize>1</can_initialize>
                 <can_authorize>0</can_authorize>
                 <can_void>0</can_void>
@@ -265,20 +265,20 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_refund_partial_per_invoice>1</can_refund_partial_per_invoice>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>2</sort_order>
                 <model>AlipayXBorderFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>debit</payment_action>
-                <merchant_account_id>47cd4edf-b13c-4298-9344-53119ab8b9df</merchant_account_id>
-                <secret>94fe4f40-16c5-4019-9c6c-bc33ec858b1d</secret>
+                <merchant_account_id>5b6678db-2e47-41f6-88c0-7d9d70678c31</merchant_account_id>
+                <secret>dbc5a498-9a66-43b9-bf1d-a618dd399684</secret>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_alipayxborder>
             <CreditAgricole_PaymentGateway_poipia>
                 <title>Crédit Agricole Payment on Invoice / Payment in Advance</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
-                <http_user>16390-testing</http_user>
-                <http_pass>3!3013=D3fD8X7</http_pass>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
+                <http_user>70000-APITEST-AP</http_user>
+                <http_pass>qD2wzQ_hrc!8</http_pass>
                 <can_initialize>1</can_initialize>
                 <can_authorize>0</can_authorize>
                 <can_void>1</can_void>
@@ -286,21 +286,21 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_refund>1</can_refund>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>7</sort_order>
                 <model>PoiPiaFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>authorize</payment_action>
                 <poipia_action>invoice</poipia_action>
-                <merchant_account_id>dcd72c94-25df-4794-8197-daf029c82d65</merchant_account_id>
-                <secret>cbdf53d2-b9ff-4355-80d5-8836342ac336</secret>
+                <merchant_account_id>c932ca1f-8b23-4356-bf51-b40d916e5c85</merchant_account_id>
+                <secret>dbc5a498-9a66-43b9-bf1d-a618dd399684</secret>
                 <send_additional>1</send_additional>
             </CreditAgricole_PaymentGateway_poipia>
             <CreditAgricole_PaymentGateway_paybybankapp>
                 <title>Crédit Agricole Pay by Bank app</title>
                 <active>0</active>
-                <base_url>https://api-test.wirecard.com</base_url>
-                <http_user>70000-APITEST-AP</http_user>
-                <http_pass>qD2wzQ_hrc!8</http_pass>
+                <base_url>https://api-test.secure.epaiement-up2pay.fr</base_url>
+                <http_user>*****</http_user>
+                <http_pass>*****</http_pass>
                 <can_initialize>1</can_initialize>
                 <can_authorize>0</can_authorize>
                 <can_capture>0</can_capture>
@@ -309,12 +309,12 @@ BQnWHd2Us5b/ep7LME9hZ8u3hu/Kc6Vk24c5p3WUOiyaTiw+Ym3QDXl1wBSl9DdM
                 <can_void>0</can_void>
                 <can_use_checkout>1</can_use_checkout>
                 <is_gateway>1</is_gateway>
-                <sort_order>1</sort_order>
+                <sort_order>6</sort_order>
                 <model>PayByBankAppFacade</model>
                 <order_status>processing</order_status>
                 <payment_action>debit</payment_action>
-                <merchant_account_id>70055b24-38f1-4500-a3a8-afac4b1e3249</merchant_account_id>
-                <secret>4a4396df-f78c-44b9-b8a0-b72b108ac465</secret>
+                <merchant_account_id>*****</merchant_account_id>
+                <secret>*****</secret>
                 <send_additional>1</send_additional>
                 <zapp_merchant_return_string/>
             </CreditAgricole_PaymentGateway_paybybankapp>

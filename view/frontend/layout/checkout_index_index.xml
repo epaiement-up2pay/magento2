@@ -3,14 +3,17 @@
 /**
  * Shop System Plugins:
  * - Terms of Use can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/_TERMS_OF_USE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/_TERMS_OF_USE
  * - License can be found under:
- * https://github.com/wirecard/magento2-ee/blob/master/LICENSE
+ * https://github.com/epaiement-up2pay/magento2/blob/master/LICENSE
  */
 -->
 
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="CreditAgricole_PaymentGateway::css/main.css" />
+    </head>
     <body>
         <referenceBlock name="checkout.root">
             <arguments>
