@@ -426,6 +426,7 @@ class Notify
                 $this->formatExpirationDate($expirationYear, $expirationMonth),
                 new \DateTimeZone('UTC')
             );
+            $expirationDate->add(new \DateInterval('P1M'));
         }
         return $expirationDate->format('Y-m-d 00:00:00');
     }
@@ -449,6 +450,7 @@ class Notify
     private function getDefaultExpirationDate()
     {
         $now = new \DateTime('now', new \DateTimeZone('UTC'));
+        $now->add(new \DateInterval('P1M'));
         return $now;
     }
 
