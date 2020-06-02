@@ -123,7 +123,7 @@ class TransactionUpdater
 
         // keep this, to be able to check, whether cronjon is running or not
         $this->logger->info(sprintf(
-            'WirecardTransactionUpdater::found %d payments',
+            'CréditAgricoleTransactionUpdater::found %d payments',
             $this->transactionCollection->count()
         ));
 
@@ -149,7 +149,7 @@ class TransactionUpdater
                     $this->transactionRepository->save($refreshed);
                 }
             } catch (Exception $e) {
-                $this->logger->error('WirecardTransactionUpdater::exception:' . $e->getMessage());
+                $this->logger->error('CréditAgricoleTransactionUpdater::exception:' . $e->getMessage());
             }
         }
     }
@@ -165,7 +165,7 @@ class TransactionUpdater
     {
         // keep this debug log
         $logStr = sprintf(
-            'WirecardTransactionUpdater::transaction:%s order:%s ',
+            'CréditAgricoleTransactionUpdater::transaction:%s order:%s ',
             $transaction->getTransactionId(),
             $transaction->getOrderId()
         );

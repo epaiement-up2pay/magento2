@@ -11,7 +11,7 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
     <group id="default">
-        <job name="wirecard-update-payments" instance="CreditAgricole\PaymentGateway\Gateway\Model\TransactionUpdater" method="run">
+        <job name="credit-agricole-update-payments" instance="CreditAgricole\PaymentGateway\Gateway\Model\TransactionUpdater" method="run">
             <schedule>*/15 * * * *</schedule>
         </job>
     </group>
