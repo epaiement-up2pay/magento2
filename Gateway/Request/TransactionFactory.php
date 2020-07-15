@@ -28,8 +28,7 @@ use Wirecard\PaymentSdk\Transaction\Operation;
 use Wirecard\PaymentSdk\Transaction\Transaction;
 
 /**
- * Class TransactionFactory
- * @package CreditAgricole\PaymentGateway\Gateway\Request
+ * Class used for creating transaction
  */
 class TransactionFactory
 {

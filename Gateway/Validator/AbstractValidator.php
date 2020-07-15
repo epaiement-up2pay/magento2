@@ -11,7 +11,7 @@ namespace CreditAgricole\PaymentGateway\Gateway\Validator;
 
 /**
  * Abstract Class AbstractValidator
- * @package CreditAgricole\PaymentGateway\Gateway\Validator
+ *
  * @since 2.2.1
  */
 abstract class AbstractValidator implements ValidatorInterface

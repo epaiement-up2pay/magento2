@@ -25,7 +25,6 @@ use Wirecard\PaymentSdk\Transaction\SepaDirectDebitTransaction;
 
 /**
  * Class PaymentSDKConfig
- * @package CreditAgricole\PaymentGateway\Gateway\Config
  */
 class PaymentSdkConfigFactory implements ConfigFactoryInterface
 {

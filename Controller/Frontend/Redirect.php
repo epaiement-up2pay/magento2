@@ -26,9 +26,7 @@ use Wirecard\PaymentSdk\Response\SuccessResponse;
 use Wirecard\PaymentSdk\TransactionService;
 
 /**
- * Class Redirect
- * @package CreditAgricole\PaymentGateway\Controller\Frontend
- * @method Http getRequest()
+ * Class used for executing redirect
  */
 class Redirect extends Action implements CsrfAwareActionInterface
 {

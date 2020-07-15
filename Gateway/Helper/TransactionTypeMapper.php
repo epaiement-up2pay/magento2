@@ -12,10 +12,9 @@ namespace CreditAgricole\PaymentGateway\Gateway\Helper;
 use Magento\Sales\Api\Data\TransactionInterface as MagentoTransactionInterface;
 
 /**
- * Class TransactionTypeMapper
+ * Helper for mapping transaction type
  *
  * @since 2.2.2
- * @package CreditAgricole\PaymentGateway\Gateway\Helper
  */
 class TransactionTypeMapper
 {

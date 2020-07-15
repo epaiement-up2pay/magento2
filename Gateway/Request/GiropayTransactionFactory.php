@@ -20,8 +20,9 @@ use Wirecard\PaymentSdk\Transaction\GiropayTransaction;
 use Wirecard\PaymentSdk\Transaction\Transaction;
 
 /**
+ * Class used for creating giropay transaction
+ *
  * Class GiropayTransactionFactory
- * @package CreditAgricole\PaymentGateway\Gateway\Request
  */
 class GiropayTransactionFactory extends TransactionFactory
 {

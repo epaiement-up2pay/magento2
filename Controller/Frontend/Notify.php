@@ -18,10 +18,7 @@ use CreditAgricole\PaymentGateway\Gateway\Model\Notify as NotifyModel;
 use CreditAgricole\PaymentGateway\Gateway\Model\TransactionUpdater;
 
 /**
- * Class Notify
- *
- * @package CreditAgricole\PaymentGateway\Controller\Frontend
- * @method Http getRequest()
+ * Class for processing notification
  */
 class Notify extends Action implements CsrfAwareActionInterface
 {

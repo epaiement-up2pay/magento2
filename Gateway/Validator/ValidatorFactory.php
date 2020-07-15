@@ -12,8 +12,8 @@ namespace CreditAgricole\PaymentGateway\Gateway\Validator;
 use CreditAgricole\PaymentGateway\Gateway\Validator;
 
 /**
- * Class ValidatorFactory
- * @package CreditAgricole\PaymentGateway\Gateway\Validator
+ * Class used for creating validator
+ *
  * @since 2.2.1
  */
 class ValidatorFactory

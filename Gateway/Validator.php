@@ -10,8 +10,8 @@
 namespace CreditAgricole\PaymentGateway\Gateway;
 
 /**
- * Class Validator
- * @package CreditAgricole\PaymentGateway\Gateway\Validator
+ * Class in which are defined validator constants
+ *
  * @since 2.2.1
  */
 class Validator

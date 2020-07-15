@@ -24,8 +24,7 @@ use Wirecard\PaymentSdk\Transaction\PayByBankAppTransaction;
 use Wirecard\PaymentSdk\Transaction\Transaction;
 
 /**
- * Class PayByBankAppTransactionFactory
- * @package CreditAgricole\PaymentGateway\Gateway\Request
+ * Class used for creating Pay by Bank transaction
  */
 class PayByBankAppTransactionFactory extends TransactionFactory
 {

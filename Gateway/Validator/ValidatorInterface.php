@@ -10,8 +10,8 @@
 namespace CreditAgricole\PaymentGateway\Gateway\Validator;
 
 /**
- * Interface ValidatorInterface
- * @package CreditAgricole\PaymentGateway\Gateway\Validator
+ * Interface for validation of parameters
+ *
  * @since 2.2.1
  */
 interface ValidatorInterface

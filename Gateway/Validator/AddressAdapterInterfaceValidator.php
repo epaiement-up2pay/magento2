@@ -13,7 +13,7 @@ use Magento\Payment\Gateway\Data\AddressAdapterInterface;
 
 /**
  * Class AddressInterfaceValidator
- * @package CreditAgricole\PaymentGateway\Gateway\Validator
+ *
  * @since 2.2.1
  */
 class AddressAdapterInterfaceValidator extends AbstractValidator

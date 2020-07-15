@@ -12,10 +12,9 @@ namespace CreditAgricole\PaymentGateway\Gateway\Helper;
 use Wirecard\PaymentSdk\Transaction\Transaction as SdkTransaction;
 
 /**
- * Class SdkTransactionTypeCollection
+ * Collection of transaction types
  *
  * @since 2.2.2
- * @package CreditAgricole\PaymentGateway\Gateway\Helper
  */
 class SdkTransactionTypeCollection
 {

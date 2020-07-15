@@ -15,8 +15,7 @@ use CreditAgricole\PaymentGateway\Gateway\Validator\AddressValidatorFactory;
 use Wirecard\PaymentSdk\Entity\AccountHolder;
 
 /**
- * Class AccountHolderFactory
- * @package CreditAgricole\PaymentGateway\Gateway\Request
+ * Class used for creating Account holder
  */
 class AccountHolderFactory
 {
