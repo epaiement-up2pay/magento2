@@ -47,7 +47,8 @@ define(
                 callbackController: "CreditAgricole_PaymentGateway/frontend/callback",
                 creditCardController: "CreditAgricole_PaymentGateway/frontend/creditcard",
                 redirectController: "CreditAgricole_PaymentGateway/frontend/redirect",
-                vaultController: "CreditAgricole_PaymentGateway/frontend/vault?hash="
+                vaultController: "CreditAgricole_PaymentGateway/frontend/vault?hash=",
+                creditCardValidationController: "CreditAgricole_PaymentGateway/frontend/creditcardordervalidation"
             },
             spinner: {
                 start: "processStart",
