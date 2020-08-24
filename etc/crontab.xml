@@ -10,7 +10,7 @@
 -->
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
-    <group id="default">
+    <group id="credit-agricole-update-payments">
         <job name="credit-agricole-update-payments" instance="CreditAgricole\PaymentGateway\Gateway\Model\TransactionUpdater" method="run">
             <schedule>*/15 * * * *</schedule>
         </job>
