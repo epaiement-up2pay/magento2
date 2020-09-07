@@ -50,7 +50,7 @@ DEPENDENCIES
   octokit (~> 4.13)
   phraseapp-ruby (~> 2.1)
   rainbow (~> 3.0)
-  rake (~> 12.3)
+  rake (~> 12.3.3)
   rubocop-airbnb (~> 2.0)
   simple_po_parser (~> 1.1)
 
