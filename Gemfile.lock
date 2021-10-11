@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 4.0)
     ast (2.4.0)
     faraday (0.15.4)
@@ -35,7 +35,7 @@ GEM
       rubocop (>= 0.58.0)
     ruby-progressbar (1.10.0)
     sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
+      addressable (>= 2.3.5)
       faraday (~> 0.8, < 1.0)
     simple_po_parser (1.1.5)
     unicode-display_width (1.5.0)
